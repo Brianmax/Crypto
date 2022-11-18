@@ -120,7 +120,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x62e82598d5556e5cd5ecee3f88bbb0d7a464a8825437a74fc02b68bfb18aeebb"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("34.106.128.252", "34.106.128.252", true));
+        vSeeds.push_back(CDNSSeedData("35.217.113.102", "35.217.113.102", true));
         //vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
         //vSeeds.push_back(CDNSSeedData("gvicointools.com", "dnsseed.gvicointools.com"));
         //vSeeds.push_back(CDNSSeedData("gvicoinpool.org", "dnsseed.gvicoinpool.org"));
@@ -225,7 +225,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.push_back(CDNSSeedData("34.106.128.252", "34.106.128.252"));
+        vSeeds.push_back(CDNSSeedData("35.217.113.102", "35.217.113.102"));
         //vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-b.gvicoin.loshan.co.uk", true));
         //vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed-testnet.thrasher.io", true));
 
